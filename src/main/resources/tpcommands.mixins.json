@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "xyz.ashyboxy.mc.tpcommands.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"MinecraftServerMixin",
+		"PlayerMoveHandlerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

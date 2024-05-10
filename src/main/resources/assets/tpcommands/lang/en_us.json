@@ -1,0 +1,11 @@
+{
+    "tpcommands.teleport.moved": "You cannot move while teleporting",
+    "tpcommands.teleport.countdown": "Teleporting to %s in %s...",
+    "tpcommands.teleport.final": "Teleporting...",
+    "tpcommands.teleport.cooldown.minutes": "Your %s is on cooldown for %s minutes %s seconds",
+    "tpcommands.teleport.cooldown.seconds": "Your %s is on cooldown for %s seconds",
+    "tpcommands.destination.spawn": "spawn",
+    "tpcommands.destination.home": "home",
+    "tpcommands.teleport.home.unset": "You haven't set a home yet! (Use /sethome)",
+    "tpcommands.sethome": "Set your home to %s %s %s"
+}
