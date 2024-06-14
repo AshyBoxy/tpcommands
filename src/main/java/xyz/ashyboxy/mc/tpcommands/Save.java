@@ -72,7 +72,7 @@ public class Save extends SavedData {
             Pos pos2 = new Pos(new Vec3(pos.getDouble(0), pos.getDouble(1), pos.getDouble(2)),
                     new Vec2(rot.getFloat(0), rot.getFloat(1)),
                     provider.lookup(Registries.DIMENSION).get().listElementIds()
-                            .filter(d -> d.location().equals(new ResourceLocation(player.getString("dimension"))))
+                            .filter(d -> d.location().equals(ResourceLocation.tryParse(player.getString("dimension"))))
                             .findAny().orElse(null));
             save.homes.put(UUID.fromString(key), pos2);
         });
